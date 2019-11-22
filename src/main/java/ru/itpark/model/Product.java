@@ -108,8 +108,8 @@ public class Product implements Comparator<Product> {
 
 
     @Override
-    public int compare(Product o1, Product o2) {
-        return 0;
+    public int compare(Product o) {
+        return name - o.name;
     }
 
 }

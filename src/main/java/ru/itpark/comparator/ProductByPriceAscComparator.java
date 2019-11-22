@@ -8,6 +8,6 @@ public class ProductByPriceAscComparator implements Comparator<Product> {
 
     @Override
     public int compare(Product o1, Product o2) {
-        return 0;
+        return o1.getName() - o2.getName();
     }
 }
