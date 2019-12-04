@@ -1,4 +1,4 @@
-package ru.itpark.category;
+package ru.itpark.model;
 
 public class Smartphone extends Product {
     private int memory;

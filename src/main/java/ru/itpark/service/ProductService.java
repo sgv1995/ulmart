@@ -1,7 +1,7 @@
 package ru.itpark.service;
 
 import ru.itpark.comparator.SortByNameAscComparator;
-import ru.itpark.category.Product;
+import ru.itpark.model.Product;
 import ru.itpark.comparator.SortByPriceAscComparator;
 import ru.itpark.comparator.SortByRatingDescComparator;
 

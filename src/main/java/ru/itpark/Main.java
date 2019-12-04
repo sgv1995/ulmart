@@ -1,12 +1,9 @@
 package ru.itpark;
 
-import ru.itpark.category.AccumulatorBattery;
-import ru.itpark.category.Microwave;
-import ru.itpark.category.Product;
-import ru.itpark.category.Smartphone;
+import ru.itpark.model.AccumulatorBattery;
+import ru.itpark.model.Microwave;
+import ru.itpark.model.Smartphone;
 import ru.itpark.service.ProductService;
-
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
